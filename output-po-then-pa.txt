@@ -1,0 +1,539 @@
+DEVICE = cuda
+After filtering to top 1000 species PA training has shape: (1396453, 9)
+After filtering to top 1000 species PO training has shape: (2762569, 9)
+PO Train data 1849747
+PA Train data 88710
+Test data 14784
+PO Train data 1849747
+****** PO: Epoch 1 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.7139585018157959
+Epoch 1/1, Batch 2000/14452, Loss: 0.008912233635783195
+Epoch 1/1, Batch 4000/14452, Loss: 0.008470715023577213
+Epoch 1/1, Batch 6000/14452, Loss: 0.010290265083312988
+Epoch 1/1, Batch 8000/14452, Loss: 0.009092374704778194
+Epoch 1/1, Batch 10000/14452, Loss: 0.008710825815796852
+Epoch 1/1, Batch 12000/14452, Loss: 0.008803614415228367
+Epoch 1/1, Batch 14000/14452, Loss: 0.008652516640722752
+Epoch 1/1 completed in 6.56 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0006], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005976344103943434]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:06<00:00, 17.80it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.7033793330192566
+Epoch 1/1, Batch 2000/14452, Loss: 0.008780836127698421
+Epoch 1/1, Batch 4000/14452, Loss: 0.009113851934671402
+Epoch 1/1, Batch 6000/14452, Loss: 0.008383795619010925
+Epoch 1/1, Batch 8000/14452, Loss: 0.010133053176105022
+Epoch 1/1, Batch 10000/14452, Loss: 0.008484682068228722
+Epoch 1/1, Batch 12000/14452, Loss: 0.007325703743845224
+Epoch 1/1, Batch 14000/14452, Loss: 0.008159025572240353
+Epoch 1/1 completed in 6.68 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0006], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005976344103943434]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.23it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.7860879302024841
+Epoch 1/1, Batch 2000/14452, Loss: 0.009065959602594376
+Epoch 1/1, Batch 4000/14452, Loss: 0.010297512635588646
+Epoch 1/1, Batch 6000/14452, Loss: 0.010342320427298546
+Epoch 1/1, Batch 8000/14452, Loss: 0.00999127421528101
+Epoch 1/1, Batch 10000/14452, Loss: 0.00934054795652628
+Epoch 1/1, Batch 12000/14452, Loss: 0.009779602289199829
+Epoch 1/1, Batch 14000/14452, Loss: 0.008779162541031837
+Epoch 1/1 completed in 23.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0004], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003984229402628956]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  6.08it/s]
+****** PO: Epoch 2 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.0075386506505310535
+Epoch 1/1, Batch 2000/14452, Loss: 0.008045068942010403
+Epoch 1/1, Batch 4000/14452, Loss: 0.008027218282222748
+Epoch 1/1, Batch 6000/14452, Loss: 0.009363741613924503
+Epoch 1/1, Batch 8000/14452, Loss: 0.00869612768292427
+Epoch 1/1, Batch 10000/14452, Loss: 0.009253887459635735
+Epoch 1/1, Batch 12000/14452, Loss: 0.007699741516262293
+Epoch 1/1, Batch 14000/14452, Loss: 0.00946853682398796
+Epoch 1/1 completed in 6.51 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005976344103943434], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005952781474789908]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.88it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008720825426280499
+Epoch 1/1, Batch 2000/14452, Loss: 0.007563328370451927
+Epoch 1/1, Batch 4000/14452, Loss: 0.009583774022758007
+Epoch 1/1, Batch 6000/14452, Loss: 0.009681365452706814
+Epoch 1/1, Batch 8000/14452, Loss: 0.008633713237941265
+Epoch 1/1, Batch 10000/14452, Loss: 0.009068243205547333
+Epoch 1/1, Batch 12000/14452, Loss: 0.007028908468782902
+Epoch 1/1, Batch 14000/14452, Loss: 0.007577318698167801
+Epoch 1/1 completed in 6.39 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005976344103943434], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005952781474789908]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.37it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.010471124202013016
+Epoch 1/1, Batch 2000/14452, Loss: 0.007775594945997
+Epoch 1/1, Batch 4000/14452, Loss: 0.009232322685420513
+Epoch 1/1, Batch 6000/14452, Loss: 0.008750595152378082
+Epoch 1/1, Batch 8000/14452, Loss: 0.010159486904740334
+Epoch 1/1, Batch 10000/14452, Loss: 0.01009547058492899
+Epoch 1/1, Batch 12000/14452, Loss: 0.007909500040113926
+Epoch 1/1, Batch 14000/14452, Loss: 0.009639027528464794
+Epoch 1/1 completed in 22.79 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003984229402628956], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003968520983193272]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  6.03it/s]
+****** PO: Epoch 3 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.00830729678273201
+Epoch 1/1, Batch 2000/14452, Loss: 0.009283044375479221
+Epoch 1/1, Batch 4000/14452, Loss: 0.010275393724441528
+Epoch 1/1, Batch 6000/14452, Loss: 0.008434535935521126
+Epoch 1/1, Batch 8000/14452, Loss: 0.007967858575284481
+Epoch 1/1, Batch 10000/14452, Loss: 0.008115321397781372
+Epoch 1/1, Batch 12000/14452, Loss: 0.007822501473128796
+Epoch 1/1, Batch 14000/14452, Loss: 0.007683594711124897
+Epoch 1/1 completed in 6.67 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005952781474789908], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005929311744820728]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 14.49it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008153257891535759
+Epoch 1/1, Batch 2000/14452, Loss: 0.008942162618041039
+Epoch 1/1, Batch 4000/14452, Loss: 0.007992378436028957
+Epoch 1/1, Batch 6000/14452, Loss: 0.0075522358529269695
+Epoch 1/1, Batch 8000/14452, Loss: 0.007904562167823315
+Epoch 1/1, Batch 10000/14452, Loss: 0.008536817505955696
+Epoch 1/1, Batch 12000/14452, Loss: 0.007005607709288597
+Epoch 1/1, Batch 14000/14452, Loss: 0.007203056011348963
+Epoch 1/1 completed in 6.63 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005952781474789908], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005929311744820728]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 14.57it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.009003421291708946
+Epoch 1/1, Batch 2000/14452, Loss: 0.00836491584777832
+Epoch 1/1, Batch 4000/14452, Loss: 0.009637522511184216
+Epoch 1/1, Batch 6000/14452, Loss: 0.00900096632540226
+Epoch 1/1, Batch 8000/14452, Loss: 0.008142651058733463
+Epoch 1/1, Batch 10000/14452, Loss: 0.008978819474577904
+Epoch 1/1, Batch 12000/14452, Loss: 0.010020553134381771
+Epoch 1/1, Batch 14000/14452, Loss: 0.008686740882694721
+Epoch 1/1 completed in 22.85 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003968520983193272], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003952874496547152]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.29it/s]
+****** PO: Epoch 4 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008721022866666317
+Epoch 1/1, Batch 2000/14452, Loss: 0.009483790025115013
+Epoch 1/1, Batch 4000/14452, Loss: 0.010273554362356663
+Epoch 1/1, Batch 6000/14452, Loss: 0.007323047611862421
+Epoch 1/1, Batch 8000/14452, Loss: 0.007678501307964325
+Epoch 1/1, Batch 10000/14452, Loss: 0.00871559139341116
+Epoch 1/1, Batch 12000/14452, Loss: 0.007859587669372559
+Epoch 1/1, Batch 14000/14452, Loss: 0.008061319589614868
+Epoch 1/1 completed in 6.21 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005929311744820728], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005905934547766985]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.31it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007560370955616236
+Epoch 1/1, Batch 2000/14452, Loss: 0.007241643033921719
+Epoch 1/1, Batch 4000/14452, Loss: 0.006845208816230297
+Epoch 1/1, Batch 6000/14452, Loss: 0.007600547280162573
+Epoch 1/1, Batch 8000/14452, Loss: 0.007468582596629858
+Epoch 1/1, Batch 10000/14452, Loss: 0.008020867593586445
+Epoch 1/1, Batch 12000/14452, Loss: 0.008492305874824524
+Epoch 1/1, Batch 14000/14452, Loss: 0.007433905731886625
+Epoch 1/1 completed in 5.98 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005929311744820728], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005905934547766985]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 14.71it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008032073266804218
+Epoch 1/1, Batch 2000/14452, Loss: 0.008038141764700413
+Epoch 1/1, Batch 4000/14452, Loss: 0.008018751628696918
+Epoch 1/1, Batch 6000/14452, Loss: 0.008960511535406113
+Epoch 1/1, Batch 8000/14452, Loss: 0.008087053894996643
+Epoch 1/1, Batch 10000/14452, Loss: 0.008188639767467976
+Epoch 1/1, Batch 12000/14452, Loss: 0.007021686062216759
+Epoch 1/1, Batch 14000/14452, Loss: 0.008107932284474373
+Epoch 1/1 completed in 22.79 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003952874496547152], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039372896985113233]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.86it/s]
+****** PO: Epoch 5 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007910264655947685
+Epoch 1/1, Batch 2000/14452, Loss: 0.008492269553244114
+Epoch 1/1, Batch 4000/14452, Loss: 0.008003558032214642
+Epoch 1/1, Batch 6000/14452, Loss: 0.0072912005707621574
+Epoch 1/1, Batch 8000/14452, Loss: 0.009031579829752445
+Epoch 1/1, Batch 10000/14452, Loss: 0.00872757937759161
+Epoch 1/1, Batch 12000/14452, Loss: 0.007254958618432283
+Epoch 1/1, Batch 14000/14452, Loss: 0.00805431418120861
+Epoch 1/1 completed in 6.23 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005905934547766985], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005882649518803842]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.17it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.009327038191258907
+Epoch 1/1, Batch 2000/14452, Loss: 0.008025328628718853
+Epoch 1/1, Batch 4000/14452, Loss: 0.00826878659427166
+Epoch 1/1, Batch 6000/14452, Loss: 0.007492488250136375
+Epoch 1/1, Batch 8000/14452, Loss: 0.009265144355595112
+Epoch 1/1, Batch 10000/14452, Loss: 0.007994613610208035
+Epoch 1/1, Batch 12000/14452, Loss: 0.007744290865957737
+Epoch 1/1, Batch 14000/14452, Loss: 0.00685755955055356
+Epoch 1/1 completed in 5.93 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005905934547766985], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005882649518803842]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.13it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.010041622444987297
+Epoch 1/1, Batch 2000/14452, Loss: 0.007578319404274225
+Epoch 1/1, Batch 4000/14452, Loss: 0.00930485688149929
+Epoch 1/1, Batch 6000/14452, Loss: 0.007296254392713308
+Epoch 1/1, Batch 8000/14452, Loss: 0.008729822002351284
+Epoch 1/1, Batch 10000/14452, Loss: 0.008772085420787334
+Epoch 1/1, Batch 12000/14452, Loss: 0.007570348680019379
+Epoch 1/1, Batch 14000/14452, Loss: 0.0077205137349665165
+Epoch 1/1 completed in 22.82 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039372896985113233], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039217663458692277]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.97it/s]
+****** PO: Epoch 6 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008134393021464348
+Epoch 1/1, Batch 2000/14452, Loss: 0.008647878654301167
+Epoch 1/1, Batch 4000/14452, Loss: 0.008628644980490208
+Epoch 1/1, Batch 6000/14452, Loss: 0.00723303435370326
+Epoch 1/1, Batch 8000/14452, Loss: 0.009471346624195576
+Epoch 1/1, Batch 10000/14452, Loss: 0.007225894369184971
+Epoch 1/1, Batch 12000/14452, Loss: 0.009385782293975353
+Epoch 1/1, Batch 14000/14452, Loss: 0.0076640029437839985
+Epoch 1/1 completed in 6.60 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005882649518803842], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005859456294544837]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:09<00:00, 12.70it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.0074584209360182285
+Epoch 1/1, Batch 2000/14452, Loss: 0.008501499891281128
+Epoch 1/1, Batch 4000/14452, Loss: 0.007409164682030678
+Epoch 1/1, Batch 6000/14452, Loss: 0.006925232242792845
+Epoch 1/1, Batch 8000/14452, Loss: 0.007319780066609383
+Epoch 1/1, Batch 10000/14452, Loss: 0.008707643486559391
+Epoch 1/1, Batch 12000/14452, Loss: 0.007347628939896822
+Epoch 1/1, Batch 14000/14452, Loss: 0.007376475725322962
+Epoch 1/1 completed in 6.37 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005882649518803842], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005859456294544837]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.52it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007060356438159943
+Epoch 1/1, Batch 2000/14452, Loss: 0.007406044751405716
+Epoch 1/1, Batch 4000/14452, Loss: 0.007139125373214483
+Epoch 1/1, Batch 6000/14452, Loss: 0.007774022873491049
+Epoch 1/1, Batch 8000/14452, Loss: 0.00810996349900961
+Epoch 1/1, Batch 10000/14452, Loss: 0.0076662516221404076
+Epoch 1/1, Batch 12000/14452, Loss: 0.008934137411415577
+Epoch 1/1, Batch 14000/14452, Loss: 0.007436033803969622
+Epoch 1/1 completed in 22.90 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039217663458692277], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039063041963632243]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.90it/s]
+****** PO: Epoch 7 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007862425409257412
+Epoch 1/1, Batch 2000/14452, Loss: 0.009197943843901157
+Epoch 1/1, Batch 4000/14452, Loss: 0.009533403441309929
+Epoch 1/1, Batch 6000/14452, Loss: 0.007647981867194176
+Epoch 1/1, Batch 8000/14452, Loss: 0.008040489628911018
+Epoch 1/1, Batch 10000/14452, Loss: 0.009083962999284267
+Epoch 1/1, Batch 12000/14452, Loss: 0.007405893877148628
+Epoch 1/1, Batch 14000/14452, Loss: 0.008059656247496605
+Epoch 1/1 completed in 6.26 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005859456294544837], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005836354513036213]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:09<00:00, 12.70it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007753895130008459
+Epoch 1/1, Batch 2000/14452, Loss: 0.008321855217218399
+Epoch 1/1, Batch 4000/14452, Loss: 0.007088155951350927
+Epoch 1/1, Batch 6000/14452, Loss: 0.007752237841486931
+Epoch 1/1, Batch 8000/14452, Loss: 0.008764456957578659
+Epoch 1/1, Batch 10000/14452, Loss: 0.0076975151896476746
+Epoch 1/1, Batch 12000/14452, Loss: 0.009201073087751865
+Epoch 1/1, Batch 14000/14452, Loss: 0.007392912171781063
+Epoch 1/1 completed in 7.04 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005859456294544837], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005836354513036213]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.61it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.0071176583878695965
+Epoch 1/1, Batch 2000/14452, Loss: 0.006926508620381355
+Epoch 1/1, Batch 4000/14452, Loss: 0.007504380773752928
+Epoch 1/1, Batch 6000/14452, Loss: 0.007461427245289087
+Epoch 1/1, Batch 8000/14452, Loss: 0.008494500070810318
+Epoch 1/1, Batch 10000/14452, Loss: 0.0076528689824044704
+Epoch 1/1, Batch 12000/14452, Loss: 0.007336525712162256
+Epoch 1/1, Batch 14000/14452, Loss: 0.007268270943313837
+Epoch 1/1 completed in 22.86 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039063041963632243], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003890903008690808]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.27it/s]
+****** PO: Epoch 8 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008892283774912357
+Epoch 1/1, Batch 2000/14452, Loss: 0.009166065603494644
+Epoch 1/1, Batch 4000/14452, Loss: 0.007215884514153004
+Epoch 1/1, Batch 6000/14452, Loss: 0.008242502808570862
+Epoch 1/1, Batch 8000/14452, Loss: 0.007419221568852663
+Epoch 1/1, Batch 10000/14452, Loss: 0.007804323453456163
+Epoch 1/1, Batch 12000/14452, Loss: 0.007607707753777504
+Epoch 1/1, Batch 14000/14452, Loss: 0.007498278748244047
+Epoch 1/1 completed in 6.25 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005836354513036213], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005813343813751271]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 14.94it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008062554523348808
+Epoch 1/1, Batch 2000/14452, Loss: 0.008313411846756935
+Epoch 1/1, Batch 4000/14452, Loss: 0.00775239197537303
+Epoch 1/1, Batch 6000/14452, Loss: 0.006661783438175917
+Epoch 1/1, Batch 8000/14452, Loss: 0.008129619993269444
+Epoch 1/1, Batch 10000/14452, Loss: 0.007396151311695576
+Epoch 1/1, Batch 12000/14452, Loss: 0.006839103065431118
+Epoch 1/1, Batch 14000/14452, Loss: 0.008340567350387573
+Epoch 1/1 completed in 6.44 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005836354513036213], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005813343813751271]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.80it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007998901419341564
+Epoch 1/1, Batch 2000/14452, Loss: 0.0074257394298911095
+Epoch 1/1, Batch 4000/14452, Loss: 0.007217737380415201
+Epoch 1/1, Batch 6000/14452, Loss: 0.007077166810631752
+Epoch 1/1, Batch 8000/14452, Loss: 0.006821082439273596
+Epoch 1/1, Batch 10000/14452, Loss: 0.007635940797626972
+Epoch 1/1, Batch 12000/14452, Loss: 0.008171225897967815
+Epoch 1/1, Batch 14000/14452, Loss: 0.008574455976486206
+Epoch 1/1 completed in 22.83 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003890903008690808], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00038755625425008464]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.86it/s]
+****** PO: Epoch 9 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.008632326498627663
+Epoch 1/1, Batch 2000/14452, Loss: 0.0077806925401091576
+Epoch 1/1, Batch 4000/14452, Loss: 0.00733873900026083
+Epoch 1/1, Batch 6000/14452, Loss: 0.007676524575799704
+Epoch 1/1, Batch 8000/14452, Loss: 0.008014308288693428
+Epoch 1/1, Batch 10000/14452, Loss: 0.007686148397624493
+Epoch 1/1, Batch 12000/14452, Loss: 0.009137324057519436
+Epoch 1/1, Batch 14000/14452, Loss: 0.0081610893830657
+Epoch 1/1 completed in 6.32 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005813343813751271], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005790423837584741]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:09<00:00, 12.57it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.007345882244408131
+Epoch 1/1, Batch 2000/14452, Loss: 0.00828353688120842
+Epoch 1/1, Batch 4000/14452, Loss: 0.007175005041062832
+Epoch 1/1, Batch 6000/14452, Loss: 0.007863854989409447
+Epoch 1/1, Batch 8000/14452, Loss: 0.007770386524498463
+Epoch 1/1, Batch 10000/14452, Loss: 0.007746862713247538
+Epoch 1/1, Batch 12000/14452, Loss: 0.0074987695552408695
+Epoch 1/1, Batch 14000/14452, Loss: 0.007450548000633717
+Epoch 1/1 completed in 6.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005813343813751271], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005790423837584741]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.61it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.00725845480337739
+Epoch 1/1, Batch 2000/14452, Loss: 0.0074630361050367355
+Epoch 1/1, Batch 4000/14452, Loss: 0.007183501496911049
+Epoch 1/1, Batch 6000/14452, Loss: 0.007797253783792257
+Epoch 1/1, Batch 8000/14452, Loss: 0.007609788794070482
+Epoch 1/1, Batch 10000/14452, Loss: 0.006851148791611195
+Epoch 1/1, Batch 12000/14452, Loss: 0.0078005194664001465
+Epoch 1/1, Batch 14000/14452, Loss: 0.00707951420918107
+Epoch 1/1 completed in 22.87 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00038755625425008464], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003860282558389826]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  6.00it/s]
+****** PO: Epoch 10 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.00970839336514473
+Epoch 1/1, Batch 2000/14452, Loss: 0.009316738694906235
+Epoch 1/1, Batch 4000/14452, Loss: 0.008501227013766766
+Epoch 1/1, Batch 6000/14452, Loss: 0.007326875347644091
+Epoch 1/1, Batch 8000/14452, Loss: 0.007846851833164692
+Epoch 1/1, Batch 10000/14452, Loss: 0.0076806992292404175
+Epoch 1/1, Batch 12000/14452, Loss: 0.009541359730064869
+Epoch 1/1, Batch 14000/14452, Loss: 0.007225438486784697
+Epoch 1/1 completed in 6.37 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005790423837584741], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.000576759422684718]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.04it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.006511274725198746
+Epoch 1/1, Batch 2000/14452, Loss: 0.00720758643001318
+Epoch 1/1, Batch 4000/14452, Loss: 0.00734792510047555
+Epoch 1/1, Batch 6000/14452, Loss: 0.007192476186901331
+Epoch 1/1, Batch 8000/14452, Loss: 0.007651354186236858
+Epoch 1/1, Batch 10000/14452, Loss: 0.0074007329531013966
+Epoch 1/1, Batch 12000/14452, Loss: 0.007099816109985113
+Epoch 1/1, Batch 14000/14452, Loss: 0.007645411882549524
+Epoch 1/1 completed in 5.87 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005790423837584741], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.000576759422684718]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.06it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/14452, Loss: 0.006458325777202845
+Epoch 1/1, Batch 2000/14452, Loss: 0.008569295518100262
+Epoch 1/1, Batch 4000/14452, Loss: 0.00835398118942976
+Epoch 1/1, Batch 6000/14452, Loss: 0.007437317166477442
+Epoch 1/1, Batch 8000/14452, Loss: 0.0076073165982961655
+Epoch 1/1, Batch 10000/14452, Loss: 0.00818648561835289
+Epoch 1/1, Batch 12000/14452, Loss: 0.007103618234395981
+Epoch 1/1, Batch 14000/14452, Loss: 0.0076604560017585754
+Epoch 1/1 completed in 22.86 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003860282558389826], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00038450628178981187]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  6.06it/s]
+****** PA: Epoch 1 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.08564107865095139
+Epoch 1/1 completed in 0.44 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0006], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005976344103943434]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.11it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.08535399287939072
+Epoch 1/1 completed in 0.41 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0006], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005976344103943434]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.52it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.1002226173877716
+Epoch 1/1 completed in 1.28 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0004], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003984229402628956]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.31it/s]
+****** PA: Epoch 2 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04728499799966812
+Epoch 1/1 completed in 0.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005976344103943434], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005952781474789908]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:09<00:00, 12.57it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04565900191664696
+Epoch 1/1 completed in 0.39 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005976344103943434], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005952781474789908]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.10it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04073016345500946
+Epoch 1/1 completed in 1.25 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003984229402628956], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003968520983193272]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.99it/s]
+****** PA: Epoch 3 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.043657708913087845
+Epoch 1/1 completed in 0.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005952781474789908], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005929311744820728]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.08it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03848417103290558
+Epoch 1/1 completed in 0.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005952781474789908], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005929311744820728]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 14.89it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.0369265191257
+Epoch 1/1 completed in 1.25 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003968520983193272], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003952874496547152]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.14it/s]
+****** PA: Epoch 4 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.042878955602645874
+Epoch 1/1 completed in 0.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005929311744820728], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005905934547766985]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 12.94it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.039485760033130646
+Epoch 1/1 completed in 0.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005929311744820728], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005905934547766985]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.59it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.036278948187828064
+Epoch 1/1 completed in 1.27 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003952874496547152], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039372896985113233]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.24it/s]
+****** PA: Epoch 5 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.045668285340070724
+Epoch 1/1 completed in 0.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005905934547766985], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005882649518803842]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.13it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.034144915640354156
+Epoch 1/1 completed in 0.40 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005905934547766985], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005882649518803842]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.55it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03533565625548363
+Epoch 1/1 completed in 1.26 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039372896985113233], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039217663458692277]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.91it/s]
+****** PA: Epoch 6 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04590533301234245
+Epoch 1/1 completed in 0.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005882649518803842], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005859456294544837]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 14.09it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03318703547120094
+Epoch 1/1 completed in 0.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005882649518803842], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005859456294544837]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.92it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.033408619463443756
+Epoch 1/1 completed in 1.25 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039217663458692277], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00039063041963632243]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  6.07it/s]
+****** PA: Epoch 7 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04104722663760185
+Epoch 1/1 completed in 0.40 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005859456294544837], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005836354513036213]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.09it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03311643749475479
+Epoch 1/1 completed in 0.41 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005859456294544837], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005836354513036213]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.43it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03305981308221817
+Epoch 1/1 completed in 1.26 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00039063041963632243], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003890903008690808]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.28it/s]
+****** PA: Epoch 8 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04439489170908928
+Epoch 1/1 completed in 0.41 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005836354513036213], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005813343813751271]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 14.96it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03219205513596535
+Epoch 1/1 completed in 0.41 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005836354513036213], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005813343813751271]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:07<00:00, 15.52it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.029316984117031097
+Epoch 1/1 completed in 1.24 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003890903008690808], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00038755625425008464]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:18<00:00,  6.31it/s]
+****** PA: Epoch 9 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04206518456339836
+Epoch 1/1 completed in 0.41 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005813343813751271], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005790423837584741]}
+100%|█████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.21it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.03264039382338524
+Epoch 1/1 completed in 0.40 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005813343813751271], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0005790423837584741]}
+  1%|█▍                                                                                                                      10%|█████████████████▏                                                                                                      22%|███████████████████████████████████▊                                                                                    30%|██████████████████████████████████████████████████                                                                      41%|███████████████████████████████████████████████████████████████████▎                                                    50%|███████████████████████████████████████████████████████████████████████████████████                                     59%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                     70%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉    79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.75it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.028555285185575485
+Epoch 1/1 completed in 1.27 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.00038755625425008464], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.0003860282558389826]}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:20<00:00,  5.70it/s]
+****** PA: Epoch 10 of 10 ******
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.04065136983990669
+Epoch 1/1 completed in 0.43 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005790423837584741], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.000576759422684718]}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.27it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.030055299401283264
+Epoch 1/1 completed in 0.42 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0005790423837584741], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.000576759422684718]}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:08<00:00, 13.84it/s]
+Training for 1 epochs started.
+Epoch 1/1, Batch 0/694, Loss: 0.029187258332967758
+Epoch 1/1 completed in 1.27 minutes.
+Scheduler: {'T_max': 25, 'eta_min': 0.0, 'base_lrs': [0.0003860282558389826], 'last_epoch': 1, '_step_count': 2, '_get_lr_called_within_step': False, '_last_lr': [0.00038450628178981187]}
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 116/116 [00:19<00:00,  5.87it/s]
+Submission file saved successfully!
+Execution time: 392.15 minutes.
